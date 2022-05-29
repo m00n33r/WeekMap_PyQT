@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>231</width>
+    <height>240</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <layout class="QVBoxLayout" name="verticalLayout_2">
+     <item>
+      <widget class="QCheckBox" name="box_monday">
+       <property name="text">
+        <string>Понедельник</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">btn_group_days</string>
+       </attribute>
+      </widget>
+     </item>
+     <item>
+      <widget class="QCheckBox" name="box_tuesday">
+       <property name="text">
+        <string>Вторник</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">btn_group_days</string>
+       </attribute>
+      </widget>
+     </item>
+     <item>
+      <widget class="QCheckBox" name="box_wendesday">
+       <property name="text">
+        <string>Среда</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">btn_group_days</string>
+       </attribute>
+      </widget>
+     </item>
+     <item>
+      <widget class="QCheckBox" name="box_thursday">
+       <property name="text">
+        <string>Четверг</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">btn_group_days</string>
+       </attribute>
+      </widget>
+     </item>
+     <item>
+      <widget class="QCheckBox" name="box_friday">
+       <property name="text">
+        <string>Пятница</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">btn_group_days</string>
+       </attribute>
+      </widget>
+     </item>
+     <item>
+      <widget class="QCheckBox" name="box_saturday">
+       <property name="text">
+        <string>Суббота</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">btn_group_days</string>
+       </attribute>
+      </widget>
+     </item>
+     <item>
+      <widget class="QCheckBox" name="box_sunday">
+       <property name="text">
+        <string>Воскресенье</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">btn_group_days</string>
+       </attribute>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <widget class="QDialogButtonBox" name="buttonBox">
+     <property name="standardButtons">
+      <set>QDialogButtonBox::Cancel|QDialogButtonBox::Ok</set>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+ <buttongroups>
+  <buttongroup name="btn_group_days">
+   <property name="exclusive">
+    <bool>false</bool>
+   </property>
+  </buttongroup>
+ </buttongroups>
+</ui>
